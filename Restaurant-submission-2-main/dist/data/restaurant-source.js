@@ -1,1 +1,0 @@
-import API_ENDPOINT from"../../scripts/globals/api-endpoint";class Restaurant{static async restaurantList(){return(await fetch(API_ENDPOINT.RESTAURANT_LIST)).json()}static async detailRestaurant(t){return(await fetch(API_ENDPOINT.DETAIL(t))).json()}}export default Restaurant;
